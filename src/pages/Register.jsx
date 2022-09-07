@@ -1,8 +1,10 @@
 import React from 'react'
 import './style.css'
+import Add from '../img/addAvatar.png'
 
 const Register = () => {
   return (
+    <div className='maindiv'>
     <div className='formContainer'>
         <div className="formWrapper">
             <span className='logo'>React chat app</span>
@@ -11,11 +13,16 @@ const Register = () => {
                 <input type="text" placeholder='display name' />
                 <input type="email" placeholder='email' />
                 <input type="password" placeholder='password' />
-                <input type="file"  />
+                <input style={{display:"none"}} type="file" id='file' />
+                <label htmlFor='file'>
+                  <img src={Add} alt="" />
+                  <span>add an avatar</span>
+                </label>
                 <button>Sign up</button>
             </form>
             <p>You do have an account? Login</p>
         </div>
+    </div>
     </div>
   )
 }

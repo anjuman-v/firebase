@@ -1,25 +1,25 @@
 *{
-    background-color: aquamarine;
+    background-color: rgb(175, 171, 171);
 }
 
 .formWrapper {
-    width: 50%;
+    width: 35%;
     align-items: center;
     justify-content: center;
-    margin-left: 15rem;
+    margin-left: 22rem;
     margin-top: 3rem;
-    background-color: white;
+    /* border: 1px solid black; */
     padding: 20px 60px;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
     gap: 10px;
     align-items: center;
-    /* background-color: white; */
+    background-color: white;
 }
 
     .logo {
-      color: #5d5b8d;
+      color: #383838;
       font-weight: bold;
       font-size: 24px;
       background-color: white;
@@ -49,11 +49,11 @@
       }
         
         placeholder{
-            color: rgb(175, 175, 175);
+            color: #383838;
           }
 
       button {
-        background-color: #7b96ec;
+        background-color: #383838;
         color: white;
         padding: 10px;
         font-weight: bold;
@@ -65,20 +65,25 @@
         display: flex;
         align-items: center;
         gap: 10px;
-        color: #8da4f1;
+        color: #383838;
         font-size: 12px;
         cursor: pointer;
+        background-color: white;
       }
 
         img{
           width: 32px;
+          background-color: white;
         }
           
     p {
-      color: #5d5b8d;
+      color: #383838;
       font-size: 12px;
       margin-top: 10px;
       background-color: #fff;
     }
   
 
+    span{
+        background-color: #fff;
+    }
