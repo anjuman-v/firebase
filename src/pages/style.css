@@ -1,3 +1,18 @@
+@media mobile {
+  @media screen and (max-width: 480px) {
+
+  }
+}
+@media tablet {
+  @media screen and (max-width: 768px) {
+       }
+}
+@media laptop {
+  @media screen and (max-width: 1200px) {
+       }
+}
+
+
 *{
     background-color: rgb(175, 171, 171);
 }
@@ -27,7 +42,7 @@
     }
 
     .title {
-      color: #5d5b8d;
+      color: #383838;
       font-size: 12px;
       background-color: white;
     }
@@ -48,7 +63,7 @@
         background-color: white;
       }
         
-        placeholder{
+        input::placeholder{
             color: #383838;
           }
 
@@ -87,3 +102,6 @@
     span{
         background-color: #fff;
     }
+
+
+   
