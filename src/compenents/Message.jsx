@@ -10,9 +10,12 @@ const Message = () => {
         width: '40px',
         height: '40px',
         borderRadius: '50%',
-        objectFit: 'cover'
+        objectFit: 'cover',
+        marginTop:'-5px'
+
+        
         }}/>
-      <span>Just now</span>
+      <span style={{color: 'black'}}>Just now</span>
       </div>
       <div className='messageContent'>
         <p>hello</p>

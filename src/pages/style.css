@@ -14,7 +14,15 @@
 
 
 *{
-    background-color: rgb(175, 171, 171);
+    margin: 0;
+    padding: 0;
+} 
+
+.registrationdiv{
+background-color: rgb(221, 220, 220);
+height: 44rem;
+object-fit: contain;
+/* margin-top: -1vh; */
 }
 
 .formWrapper {
@@ -22,7 +30,7 @@
     align-items: center;
     justify-content: center;
     margin-left: 22rem;
-    margin-top: 3rem;
+    /* margin-top: 3rem; */
     /* border: 1px solid black; */
     padding: 20px 60px;
     border-radius: 10px;
@@ -30,21 +38,22 @@
     flex-direction: column;
     gap: 10px;
     align-items: center;
-    background-color: white;
+    
+    /* background-color: white; */
 }
 
     .logo {
       color: #383838;
       font-weight: bold;
       font-size: 24px;
-      background-color: white;
+     
 
     }
 
     .title {
       color: #383838;
       font-size: 12px;
-      background-color: white;
+      
     }
 
     form {
@@ -52,15 +61,16 @@
       flex-direction: column;
       gap: 15px;
       background: white;
+      width: 25rem;
       /* border: 1px solid black; */
     }
 
-      input {
+      .signin_login_input {
         padding: 15px;
         border: none;
-        width: 250px;
+        width: 90%;
         border-bottom: 1px solid #a7bcff;
-        background-color: white;
+        /* background-color: white; */
       }
         
         input::placeholder{
@@ -83,25 +93,23 @@
         color: #383838;
         font-size: 12px;
         cursor: pointer;
-        background-color: white;
+        /* background-color: white; */
       }
 
-        img{
+        /* img{
           width: 32px;
           background-color: white;
-        }
+        } */
           
-    p {
+    .p{
       color: #383838;
       font-size: 12px;
       margin-top: 10px;
-      background-color: #fff;
+      /* background-color: #fff; */
     }
   
 
-    span{
-        background-color: #fff;
-    }
+    
 
 
    
